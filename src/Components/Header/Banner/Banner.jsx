@@ -19,7 +19,7 @@ const Banner = () => {
     //   </div>
     // </div>
     <div >
-        <div className="banner-bg h-[70vh] m-10">
+        <div className="banner-bg h-[70vh] mx-auto w-11/12">
             <div className="bg-[#ffffffee] pt-20 pb-28">
                 <h3 className="text-3xl text-black font-bold mt-12 mb-10 px-8 text-center">I Grow By Helping People In Need</h3>
                 <div className="mb-20 rounded-lg overflow-hidden border flex mx-auto w-80  bg-gray-400">
