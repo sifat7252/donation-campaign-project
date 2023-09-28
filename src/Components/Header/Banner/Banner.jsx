@@ -19,11 +19,11 @@ const Banner = () => {
     //   </div>
     // </div>
     <div >
-        <div className="banner-bg h-[70vh] mx-auto w-11/12">
-            <div className="bg-[#ffffffee] pt-20 pb-28">
+        <div className="banner-bg mx-auto rounded-lg  w-full">
+            <div className="bg-[#ffffffee] py-20">
                 <h3 className="text-3xl text-black font-bold mt-12 mb-10 px-8 text-center">I Grow By Helping People In Need</h3>
                 <div className="mb-20 rounded-lg overflow-hidden border flex mx-auto w-80  bg-gray-400">
-                    <input type="text" className="outline-none w-60 py-2 bg-white" placeholder="Search Here..." />
+                    <input type="text" className="outline-none w-60 py-2 px-3 bg-white" placeholder="Search Here..." />
                     <button className="pb-px px-4 text-white bg-red-400">Search</button>
                 </div>
             </div>
