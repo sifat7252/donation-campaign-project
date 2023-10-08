@@ -33,7 +33,7 @@ const Donation = () => {
                 }
             </div>
             <div className="flex justify-center items-center m-10 ">
-           {donation.length > 4 &&  <button onClick={()=> setIsSee(!isSee)} className="bg-green-600 rounded-md text-white text-base font-bold py-2 px-5 ">See All</button>}
+           {donation.length > 4 &&  <button onClick={()=> setIsSee(!isSee)} className="bg-green-600 rounded-md text-white text-base font-bold py-2 px-5 ">{isSee ? "See less" : "See All"}</button>}
             </div>
         </div>
       )}
